@@ -1,0 +1,69 @@
+{
+  "name": "Suggest a registrar",
+  "description": "Recommend a registrar to research and integrate.",
+  "title": "[Registrar] ",
+  "labels": [
+    "registrar"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Suggestions are public and reviewed before publication. Do not include private data."
+      }
+    },
+    {
+      "type": "input",
+      "id": "name",
+      "attributes": {
+        "label": "Registrar name"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "website",
+      "attributes": {
+        "label": "Official website"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "sources",
+      "attributes": {
+        "label": "Official sources",
+        "description": "Link the exact public pages supporting the suggestion. Leave unverified facts unknown."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "details",
+      "attributes": {
+        "label": "Additional details",
+        "description": "Include relevant support, requirements or eligibility evidence."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "attribution",
+      "attributes": {
+        "label": "Attribution and AI assistance",
+        "description": "Identify adapted wording and its source/permission, and disclose material AI assistance. For original wording, say so."
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}
