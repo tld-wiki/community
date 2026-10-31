@@ -1,12 +1,25 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/brand/wordmark-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/brand/wordmark-light.svg">
-  <img alt="tld.wiki" src="docs/brand/wordmark-light.svg" width="320">
-</picture>
+<p align="center">
+  <a href="https://tld.wiki">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/brand/wordmark-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="docs/brand/wordmark-light.svg">
+      <img src="docs/brand/wordmark-light.svg" alt="tld.wiki" width="280">
+    </picture>
+  </a>
+</p>
+<p align="center"><strong>Help improve the wiki.</strong></p>
+<p align="center">Corrections, additions and translations for <a href="https://tld.wiki">tld.wiki</a>.</p>
 
-# Community
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="docs/brand/community-mobile.png">
+    <img src="docs/brand/community.png" alt="Source, review, publish: contributions are checked by maintainers before reaching the wiki." width="840">
+  </picture>
+</p>
 
-Corrections, additions and translations for [tld.wiki](https://tld.wiki).
+## Make a suggestion
+
+Choose a form, include the relevant page and link your sources. The form opens directly on GitHub.
 
 | Suggestion | Submit |
 | --- | --- |
@@ -16,10 +29,10 @@ Corrections, additions and translations for [tld.wiki](https://tld.wiki).
 | Add an extension | [Suggest an extension](https://github.com/tld-wiki/community/issues/new?template=tld.yml) |
 | Correct a translation | [Improve a translation](https://github.com/tld-wiki/community/issues/new?template=translation.yml) |
 
-A GitHub account is required. Check [existing suggestions](https://github.com/tld-wiki/community/issues) before opening a new one.
+A GitHub account is required. Check [existing suggestions](https://github.com/tld-wiki/community/issues) first.
 
-Maintainers verify sources and review every suggestion. Issues never change the site automatically. Registrar requests require separate integration and verification. Live prices, availability and premium classification remain handled by ingestion; report an incorrect result with its page URL and source.
+Maintainers verify sources and review suggestions before publication. An issue never changes the site automatically. New registrars also need integration and verification.
 
-This repository contains contribution instructions and issue forms. Application code, knowledge datasets, credentials and deployment automation remain private.
+Prices, availability and premium classification come from automated checks. To report a wrong result, use **Suggest an edit** with the affected URL and evidence.
 
-[Contribution guidelines](CONTRIBUTING.md) · [Report a security issue](SECURITY.md)
+[Contribution guidelines](CONTRIBUTING.md) · [Report a security issue](SECURITY.md) · [Open tld.wiki](https://tld.wiki)
