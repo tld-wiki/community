@@ -7,8 +7,7 @@
     </picture>
   </a>
 </p>
-<p align="center"><strong>Help improve the wiki.</strong></p>
-<p align="center">Corrections, additions and translations for <a href="https://tld.wiki">tld.wiki</a>.</p>
+<p align="center"><strong>The wiki for Top-level Domains.</strong></p>
 
 <p align="center">
   <picture>
