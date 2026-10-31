@@ -1,59 +1,37 @@
-{
-  "name": "Correct a page",
-  "description": "Suggest a sourced correction to a TLD, registrar or destination.",
-  "title": "[Correction] ",
-  "labels": [
-    "correction"
-  ],
-  "body": [
-    {
-      "type": "markdown",
-      "attributes": {
-        "value": "Suggestions are public and reviewed before publication. Do not include private data."
-      }
-    },
-    {
-      "type": "input",
-      "id": "page",
-      "attributes": {
-        "label": "Page URL"
-      },
-      "validations": {
-        "required": true
-      }
-    },
-    {
-      "type": "textarea",
-      "id": "change",
-      "attributes": {
-        "label": "Proposed correction",
-        "description": "Describe the change and why it is needed."
-      },
-      "validations": {
-        "required": true
-      }
-    },
-    {
-      "type": "textarea",
-      "id": "sources",
-      "attributes": {
-        "label": "Official sources",
-        "description": "Link the exact public pages supporting the suggestion. Leave unverified facts unknown."
-      },
-      "validations": {
-        "required": true
-      }
-    },
-    {
-      "type": "textarea",
-      "id": "attribution",
-      "attributes": {
-        "label": "Attribution and AI assistance",
-        "description": "Identify adapted wording and its source/permission, and disclose material AI assistance. For original wording, say so."
-      },
-      "validations": {
-        "required": true
-      }
-    }
-  ]
-}
+name: Correct a page
+description: Suggest a sourced correction to a TLD, registrar or destination.
+title: '[Correction] '
+labels:
+- correction
+body:
+- type: markdown
+  attributes:
+    value: Suggestions are public and reviewed before publication. Do not include private data.
+- type: input
+  id: page
+  attributes:
+    label: Page URL
+  validations:
+    required: true
+- type: textarea
+  id: change
+  attributes:
+    label: Proposed correction
+    description: Describe the change and why it is needed.
+  validations:
+    required: true
+- type: textarea
+  id: sources
+  attributes:
+    label: Official sources
+    description: Link the exact public pages supporting the suggestion. Leave unverified facts unknown.
+  validations:
+    required: true
+- type: textarea
+  id: attribution
+  attributes:
+    label: Attribution and AI assistance
+    description: Identify adapted wording and its source/permission, and disclose material AI assistance.
+      For original wording, say so.
+  validations:
+    required: true
